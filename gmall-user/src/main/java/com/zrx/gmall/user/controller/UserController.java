@@ -1,11 +1,10 @@
 package com.zrx.gmall.user.controller;
 
-import com.zrx.gmall.user.bean.UmsMember;
-import com.zrx.gmall.user.bean.UmsMemberReceiveAddress;
-import com.zrx.gmall.user.service.UserService;
+import com.zrx.gmall.bean.UmsMember;
+import com.zrx.gmall.bean.UmsMemberReceiveAddress;
+import com.zrx.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 

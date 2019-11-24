@@ -1,13 +1,12 @@
 package com.zrx.gmall.user.service.impl;
 
-import com.zrx.gmall.user.bean.UmsMember;
-import com.zrx.gmall.user.bean.UmsMemberReceiveAddress;
+import com.zrx.gmall.bean.UmsMember;
+import com.zrx.gmall.bean.UmsMemberReceiveAddress;
+import com.zrx.gmall.service.UserService;
 import com.zrx.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.zrx.gmall.user.mapper.UserMapper;
-import com.zrx.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
